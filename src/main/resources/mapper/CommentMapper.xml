@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+    <mapper namespace="com.cn.xuetang.mapper.CommentMapper">
+
+
+    <insert id="insertComment" parameterType="com.cn.xuetang.po.CommentCustom">
+        insert into comment
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="c_id != null">
+                c_id,
+            </if>
+            <if test="c_cover_peo != null">
+                c_cover_peo,
+            </if>
+            <if test="c_cover != null">
+                c_cover,
+            </if>
+            <if test="c_peo != null">
+                c_peo,
+            </if>
+            <if test="c_content != null">
+                c_content,
+            </if>
+
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="c_id != null">
+                #{c_id},
+            </if>
+            <if test="c_cover_peo != null">
+                #{c_cover_peo},
+            </if>
+            <if test="c_cover != null">
+                #{c_cover},
+            </if>
+            <if test="c_peo != null">
+                #{c_peo},
+            </if>
+            <if test="c_content != null">
+                #{c_content}
+            </if>
+        </trim>
+    </insert>
+
+
+    <update id="updateComment" parameterType="com.cn.xuetang.po.CommentCustom">
+        update comment
+        <trim prefix="set" suffixOverrides=",">
+
+            <if test="c_cover_peo != null">
+                c_cover_peo = #{c_cover_peo},
+            </if>
+            <if test="c_cover != null">
+                c_cover =  #{c_cover},
+            </if>
+            <if test="c_peo != null">
+                c_peo = #{c_peo},
+            </if>
+            <if test="c_content != null">
+                c_content =  #{c_content}
+            </if>
+            <if test="c_fellgood != null">
+                c_fellgood =  #{c_fellgood}
+            </if>
+
+            where c_id = #{c_id}
+        </trim>
+    </update>
+
+
+
+    <delete id="delOneComment" parameterType="String" >
+        DELETE  FROM  comment WHERE c_id =  #{c_id}
+    </delete>
+
+    <select id="selectOneComment" parameterType="String" resultType="com.cn.xuetang.po.CommentCustom">
+        SELECT * from comment where c_cover=#{c_cover} order by c_time desc
+    </select>
+</mapper>

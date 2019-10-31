@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.cn.xuetang.mapper.UserMapper">
+    <!--<resultMap id="KnowledgeMap" type="com.cn.xuetang.po.KnowledgeCustom" >-->
+    <!--<id column="knowid" property="knowid" />-->
+    <!--<result column="userid" property="userid"  />-->
+    <!--<result column="knowlink" property="knowlink" />-->
+    <!--<result column="knowpaw" property="knowpaw" />-->
+    <!--<result column="knowlabel" property="knowlabel"  />-->
+    <!--<result column="knowname" property="knowname"  />-->
+    <!--<result column="knowremark" property="knowremark" />-->
+    <!--<result column="knowlimittime" property="knowlimittime" />-->
+    <!--<result column="knowcreattime" property="knowcreattime"  />-->
+    <!--</resultMap>-->
+
+
+    <insert id="insertUser" parameterType="com.cn.xuetang.po.UserCustom">
+        insert into users
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="u_id != null">
+                u_id,
+            </if>
+            <if test="u_yhm != null">
+                u_yhm,
+            </if>
+            <if test="u_paw != null">
+                u_paw,
+            </if>
+            <if test="u_xm != null">
+                u_xm,
+            </if>
+            <if test="u_nc != null">
+                u_nc,
+            </if>
+
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="u_id != null">
+                #{u_id},
+            </if>
+            <if test="u_yhm != null">
+                #{u_yhm},
+            </if>
+            <if test="u_paw != null">
+                #{u_paw},
+            </if>
+            <if test="u_xm != null">
+                #{u_xm},
+            </if>
+            <if test="u_nc != null">
+                #{u_nc},
+            </if>
+        </trim>
+    </insert>
+
+
+    <update id="updateUser" parameterType="com.cn.xuetang.po.UserCustom">
+       update users
+        <trim prefix="set" suffixOverrides=",">
+
+            <if test="u_yhm != null">
+                u_yhm = #{u_yhm},
+            </if>
+            <if test="u_paw != null">
+                u_paw = #{u_paw},
+            </if>
+            <if test="u_xm != null">
+                u_xm = #{u_xm},
+            </if>
+            <if test="u_nc != null">
+                u_nc = #{u_nc},
+            </if>
+            <if test="u_photoPath != null">
+                u_photoPath = #{u_photoPath}
+            </if>
+            where u_id = #{u_id}
+        </trim>
+    </update>
+
+
+
+    <select id="loginUser" parameterType="String" resultType="UserCustom">
+          SELECT * from users where 1=1
+        <if test="u_yhm != null">
+            and u_yhm=#{u_yhm} and u_paw=#{u_paw}
+        </if>
+
+    </select>
+
+   <select id="selectOneUser" parameterType="String" resultType="UserCustom">
+        SELECT * from users where u_id=#{u_id}
+    </select>
+</mapper>
