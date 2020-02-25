@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.cn.xuetang.mapper.KnowledgeMapper" >
+   <!-- <resultMap id="KnowledgeMap" type="com.cn.xuetang.po.KnowledgeCustom" >
+        <id column="knowid" property="knowid" />
+        <result column="userid" property="userid"  />
+        <result column="knowlink" property="knowlink" />
+        <result column="knowpaw" property="knowpaw" />
+        <result column="knowlabel" property="knowlabel"  />
+        <result column="knowname" property="knowname"  />
+        <result column="knowremark" property="knowremark" />
+        <result column="knowlimittime" property="knowlimittime" />
+        <result column="knowcreattime" property="knowcreattime"  />
+    </resultMap>-->
+
+
+    <select id="selectKnowledgeList" resultType="com.cn.xuetang.po.KnowledgeCustom">
+        select * from knowledge
+    </select>
+
+    <!--<insert id="insertSelective" parameterType="cn.itcast.ssm.po.Items" >-->
+    <!--insert into items-->
+    <!--<trim prefix="(" suffix=")" suffixOverrides="," >-->
+    <!--<if test="id != null" >-->
+    <!--id,-->
+    <!--</if>-->
+    <!--<if test="name != null" >-->
+    <!--name,-->
+    <!--</if>-->
+    <!--<if test="price != null" >-->
+    <!--price,-->
+    <!--</if>-->
+    <!--<if test="pic != null" >-->
+    <!--pic,-->
+    <!--</if>-->
+    <!--<if test="createtime != null" >-->
+    <!--createtime,-->
+    <!--</if>-->
+    <!--<if test="detail != null" >-->
+    <!--detail,-->
+    <!--</if>-->
+    <!--</trim>-->
+    <!--<trim prefix="values (" suffix=")" suffixOverrides="," >-->
+    <!--<if test="id != null" >-->
+    <!--#{id,jdbcType=INTEGER},-->
+    <!--</if>-->
+    <!--<if test="name != null" >-->
+    <!--#{name,jdbcType=VARCHAR},-->
+    <!--</if>-->
+    <!--<if test="price != null" >-->
+    <!--#{price,jdbcType=REAL},-->
+    <!--</if>-->
+    <!--<if test="pic != null" >-->
+    <!--#{pic,jdbcType=VARCHAR},-->
+    <!--</if>-->
+    <!--<if test="createtime != null" >-->
+    <!--#{createtime,jdbcType=TIMESTAMP},-->
+    <!--</if>-->
+    <!--<if test="detail != null" >-->
+    <!--#{detail,jdbcType=LONGVARCHAR},-->
+    <!--</if>-->
+    <!--</trim>-->
+    <!--</insert>-->
+
+
+</mapper>

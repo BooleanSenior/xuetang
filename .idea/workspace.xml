@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="xuetang:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="85c9b219-9c18-4f6f-b9f5-9ef45fbc308f" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/xuetang/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cn/xuetang/controller/TestController.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Tag Library Descriptor" />
+        <option value="spring-beans.schema" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="HTML File" />
+        <option value="myxml" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>selectKnowledgeList</find>
+      <find>/selectOne</find>
+      <find>test</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1WmNPIETGA56qwWNFzjqJRh3gyS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="ToolWindowDebug.ShowToolbar" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.3091954" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.cn.xuetang" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Work\IDEAWorkSpace\xuetang\src\main\java\com\cn\xuetang\util" />
+      <recent name="C:\Work\IDEAWorkSpace\xuetang\src\main\java\com\cn\xuetang\shiro" />
+      <recent name="C:\Work\IDEAWorkSpace\xuetang\src\main\java\com\cn\xuetang\realm" />
+      <recent name="C:\Work\IDEAWorkSpace\xuetang\src\main\java\com\cn\xuetang\filter" />
+      <recent name="C:\Work\IDEAWorkSpace\xuetang\src\main\java\com\cn\xuetang\mapper" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cn.xuetang.controller" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IDEA\IDEAworkspace\xuetang\src\main\resources\static" />
+      <recent name="E:\IDEA\IDEAworkspace\xuetang\src\main\resources\mapper" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.XuetangApplication">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration name="ConversationWithPeople" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cn.xuetang.util.ConversationWithPeople" />
+      <module name="xuetang" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cn.xuetang.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cn.xuetang.MyTest.RunableDemo" />
+      <module name="xuetang" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cn.xuetang.MyTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XuetangApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="xuetang" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cn.xuetang.XuetangApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ConversationWithPeople" />
+      <item itemvalue="Application.RunableDemo" />
+      <item itemvalue="Spring Boot.XuetangApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.RunableDemo" />
+        <item itemvalue="Application.ConversationWithPeople" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="85c9b219-9c18-4f6f-b9f5-9ef45fbc308f" name="Default" comment="" />
+      <created>1547989520085</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1547989520085</updated>
+      <workItem from="1547989523715" duration="508000" />
+      <workItem from="1548307131278" duration="11321000" />
+      <workItem from="1548323895838" duration="8764000" />
+      <workItem from="1549594023261" duration="541000" />
+      <workItem from="1549597161965" duration="6293000" />
+      <workItem from="1549624339015" duration="11982000" />
+      <workItem from="1549785152643" duration="996000" />
+      <workItem from="1549794059427" duration="8775000" />
+      <workItem from="1549805587655" duration="1741000" />
+      <workItem from="1550889874608" duration="192000" />
+      <workItem from="1551082007681" duration="1454000" />
+      <workItem from="1551103200454" duration="457000" />
+      <workItem from="1551103769579" duration="741000" />
+      <workItem from="1551161059755" duration="6560000" />
+      <workItem from="1551521913220" duration="6148000" />
+      <workItem from="1551703938529" duration="492000" />
+      <workItem from="1561362411059" duration="1274000" />
+      <workItem from="1561366105114" duration="2925000" />
+      <workItem from="1561384849942" duration="1194000" />
+      <workItem from="1562048854014" duration="3875000" />
+      <workItem from="1562054803251" duration="601000" />
+      <workItem from="1562062299098" duration="677000" />
+      <workItem from="1562077833722" duration="1349000" />
+      <workItem from="1562116955233" duration="1871000" />
+      <workItem from="1562168198096" duration="786000" />
+      <workItem from="1562250338779" duration="4372000" />
+      <workItem from="1562381733329" duration="3572000" />
+      <workItem from="1562403474984" duration="2466000" />
+      <workItem from="1562423745114" duration="1272000" />
+      <workItem from="1562432789959" duration="673000" />
+      <workItem from="1563541133248" duration="4361000" />
+      <workItem from="1563700345575" duration="9518000" />
+      <workItem from="1564195211211" duration="1216000" />
+      <workItem from="1564217021808" duration="6714000" />
+      <workItem from="1564228170914" duration="1190000" />
+      <workItem from="1564239729942" duration="693000" />
+      <workItem from="1564304764548" duration="2283000" />
+      <workItem from="1564670953406" duration="2583000" />
+      <workItem from="1565102663999" duration="1664000" />
+      <workItem from="1565883179487" duration="218000" />
+      <workItem from="1566739819771" duration="163000" />
+      <workItem from="1567321593321" duration="12098000" />
+      <workItem from="1567934791688" duration="871000" />
+      <workItem from="1567939598595" duration="859000" />
+      <workItem from="1568431584879" duration="7736000" />
+      <workItem from="1568519698835" duration="594000" />
+      <workItem from="1568731475078" duration="2614000" />
+      <workItem from="1569135135907" duration="11047000" />
+      <workItem from="1569163602632" duration="759000" />
+      <workItem from="1569214045896" duration="1161000" />
+      <workItem from="1569326552174" duration="515000" />
+      <workItem from="1570012507091" duration="3034000" />
+      <workItem from="1570345215635" duration="9575000" />
+      <workItem from="1570431253253" duration="4482000" />
+      <workItem from="1570453903746" duration="1224000" />
+      <workItem from="1570457475026" duration="609000" />
+      <workItem from="1571575404469" duration="1875000" />
+      <workItem from="1571740235172" duration="1636000" />
+      <workItem from="1571982687224" duration="1235000" />
+      <workItem from="1572505225209" duration="1474000" />
+      <workItem from="1572576429266" duration="623000" />
+      <workItem from="1572792523786" duration="659000" />
+      <workItem from="1572875589525" duration="2034000" />
+      <workItem from="1573022765939" duration="6220000" />
+      <workItem from="1573095308865" duration="2695000" />
+      <workItem from="1573098560920" duration="11155000" />
+      <workItem from="1573122757643" duration="66000" />
+      <workItem from="1573123545819" duration="1728000" />
+      <workItem from="1573307199899" duration="4092000" />
+      <workItem from="1573356134445" duration="605000" />
+      <workItem from="1573436404594" duration="349000" />
+      <workItem from="1573522744962" duration="590000" />
+      <workItem from="1574152745506" duration="615000" />
+      <workItem from="1574516646041" duration="931000" />
+      <workItem from="1574520682949" duration="613000" />
+      <workItem from="1574645291551" duration="229000" />
+      <workItem from="1575039314774" duration="1460000" />
+      <workItem from="1575079213013" duration="227000" />
+      <workItem from="1575597779034" duration="3687000" />
+      <workItem from="1576854846978" duration="841000" />
+      <workItem from="1576857544459" duration="1406000" />
+      <workItem from="1576899129475" duration="84000" />
+      <workItem from="1579750787082" duration="614000" />
+      <workItem from="1580034041071" duration="15000" />
+      <workItem from="1580300595977" duration="715000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cn/xuetang/controller/TestController.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArquillianSettingsConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3091954" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>xuetang:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3091954" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3091954" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3091954" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3091954" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>xuetang</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3091954" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3091954" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="xuetang">
+    <output-path>$PROJECT_DIR$/out/artifacts/xuetang</output-path>
+    <root id="archive" name="xuetang.war" />
+  </artifact>
+</component>

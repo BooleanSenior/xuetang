@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.cn.xuetang.mapper.QuestionMapper">
+    <insert id="insertQuestion" parameterType="com.cn.xuetang.po.Quentions">
+        insert into questions
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="q_id != null">
+                q_id,
+            </if>
+            <if test="q_bt != null">
+                q_bt,
+            </if>
+            <if test="q_nr!= null">
+                q_nr,
+            </if>
+            <if test="q_xs != null">
+                q_xs,
+            </if>
+            <if test="u_id != null">
+                u_id,
+            </if>
+
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="q_id != null">
+                #{q_id},
+            </if>
+            <if test="q_bt != null">
+                #{q_bt},
+            </if>
+            <if test="q_nr!= null">
+                #{q_nr},
+            </if>
+            <if test="q_xs != null">
+                #{q_xs},
+            </if>
+            <if test="u_id != null">
+                #{u_id} ,
+            </if>
+        </trim>
+    </insert>
+
+    <select id="selectOne" parameterType="String" resultType="com.cn.xuetang.po.Quentions">
+        SELECT * from questions where q_id =   #{q_id};
+    </select>
+
+   <!-- <select id="selectMh"  resultType="com.cn.xuetang.po.Quentions">
+    SELECT q_id,q_bt,q_xs,q_time,q_istop,u_id from questions
+</select>-->
+
+   <select id="selectAll" parameterType="String"  resultType="com.cn.xuetang.po.Quentions">
+        SELECT q_id,q_bt,q_xs,q_time,q_istop,u_id from questions where 1=1
+       <if test="q_fl != null">
+           and  q_bt LIKE '%${q_fl}%'
+       </if>
+        order by q_istop
+    </select>
+
+    <delete id="delOne" parameterType="String" >
+          DELETE  FROM  questions WHERE q_id =  #{q_id}
+
+    </delete>
+</mapper>
